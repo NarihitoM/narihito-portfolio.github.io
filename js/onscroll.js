@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }, {
         threshold: thresholdValue,
-        rootMargin: "0px 0px -15% 0px"
+        rootMargin: "0px 0px -10% 0px"
     });
 
     animDivs.forEach(div => fadeObserver.observe(div));
@@ -191,3 +191,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
 });
+
